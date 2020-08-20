@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "646224014123",
+    "firebase_url": "https://firestoreoflearning.firebaseio.com",
+    "project_id": "firestoreoflearning",
+    "storage_bucket": "firestoreoflearning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646224014123:android:d8ddbd3dec305348ba336e",
+        "android_client_info": {
+          "package_name": "com.example.fireShouldSuceess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646224014123-ief7ib11jnelsvav580e22oek4q0toc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUSpfjtAfotb7pG6i61JZFPNR3s3uDI5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646224014123-ief7ib11jnelsvav580e22oek4q0toc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
