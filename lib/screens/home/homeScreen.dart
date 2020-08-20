@@ -11,8 +11,10 @@ class _HomeScreeenState extends State<HomeScreeen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.brown[50],
       appBar: AppBar(
         elevation: 0.0,
+        backgroundColor: Colors.brown[500],
         actions: <Widget>[
           FlatButton.icon(
               onPressed: () async {
