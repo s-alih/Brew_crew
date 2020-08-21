@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:fireShouldSuceess/model/user.dart';
 import '../model/brew.dart';
 
 class DatabaseService {
@@ -21,7 +22,18 @@ class DatabaseService {
     }).toList();
   }
 
+  UserData _userData(DocumentSnapshot snapshot) {
+    return UserData(
+        name: snapshot.data['name'],
+        strength: snapshot.data['strength'],
+        suger: snapshot.data['suger']);
+  }
+
   Stream<List<Brew>> get brew {
     return collectionReference.snapshots().map(_breList);
+  }
+
+  Stream<UserData> get dataUser {
+    return collectionReference.document(uid).snapshots().map(_userData);
   }
 }

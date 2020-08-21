@@ -6,7 +6,7 @@ import './brew_tile.dart';
 class BrewList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final brew = Provider.of<List<Brew>>(context);
+    final brew = Provider.of<List<Brew>>(context) ?? [];
     brew.forEach((element) {
       print(element.name);
       print(element.suger);
